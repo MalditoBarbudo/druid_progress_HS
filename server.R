@@ -17,7 +17,7 @@ function(input, output, session) {
   games_data <- reactiveFileReader(
     60000,
     session = session,
-    filePath = "../Data/aggro_druid.csv",
+    filePath = "Data/aggro_druid.csv",
     readFunc = read_csv2
   )
   

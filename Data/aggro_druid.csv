@@ -144,4 +144,5 @@ Id_game;Date;Rank;Opponent;Coin;Result;Turn;LivingMana;Finja;Concede;Disconnect
 143;2017/05/11;6;Murloc Paladin;No;Win;5;No;No;Yes;No
 144;2017/05/11;6;Murloc Paladin;No;Win;5;No;No;Yes;No
 145;2017/05/11;5;Freeze Mage;No;Lose;10;Yes;No;Yes;No
-146;2017/05/12;5;;;;;;;;
+146;2017/05/12;5;Freeze Mage;No;Win;10;No;Yes;No;No
+147;2017/05/12;5;Aggro Druid;Yes;Lose;4;No;No;Yes;No

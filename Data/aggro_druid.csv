@@ -1,141 +1,147 @@
-Date;Rank;Opponent;Coin;Result;Turn;LivingMana;Finja;Concede;Disconnect
-2017/05/07;9;Freeze Mage;;Win;8;Yes;No;No;No
-2017/05/07;9;Shaman;;Lose;10;Yes;No;No;No
-2017/05/07;9;Freeze Mage;;Lose;10;Yes;Yes;No;No
-2017/05/07;10;Murloc Paladin;;Lose;6;No;No;Yes;No
-2017/05/07;10;Midrange Hunter;;Lose;7;Yes;No;Yes;No
-2017/05/07;10;Quest Rogue;;Lose;10;Yes;No;No;No
-2017/05/07;10;Quest Taunt Warrior;;Lose;10;Yes;No;Yes;No
-2017/05/07;10;Midrange Paladin;;Lose;8;Yes;No;No;No
-2017/05/07;10;Midrange Paladin;Yes;Win;5;No;No;No;No
-2017/05/07;10;Jade Druid;No;Win;6;No;Yes;Yes;No
-2017/05/07;10;Jade Druid;No;Win;5;No;No;Yes;No
-2017/05/07;10;Freeze Mage;Yes;Lose;10;No;Yes;Yes;No
-2017/05/07;10;Quest Taunt Warrior;Yes;Lose;10;Yes;No;Yes;No
-2017/05/07;10;Freeze Mage;Yes;Lose;10;Yes;No;Yes;No
-2017/05/07;10;Priest;Yes;Win;5;Yes;No;Yes;No
-2017/05/07;10;Freeze Mage;Yes;Lose;9;Yes;No;Yes;No
-2017/05/07;10;Quest Taunt Warrior;Yes;Lose;9;Yes;No;Yes;No
-2017/05/07;10;Murloc Paladin;No;Win;6;No;No;No;No
-2017/05/07;10;Pirate Warrior;Yes;Lose;6;No;No;Yes;No
-2017/05/07;10;Quest Taunt Warrior;No;Lose;9;No;No;Yes;No
-2017/05/07;10;Freeze Mage;No;Lose;10;Yes;Yes;Yes;No
-2017/05/07;10;Quest Rogue;Yes;Win;10;Yes;No;No;No
-2017/05/07;10;Midrange Hunter;No;Win;5;No;Yes;Yes;No
-2017/05/07;10;Midrange Hunter;Yes;Win;4;No;No;No;No
-2017/05/07;10;Midrange Paladin;No;Win;6;No;No;No;No
-2017/05/07;9;Pirate Warrior;No;Win;7;No;Yes;No;No
-2017/05/07;9;Midrange Hunter;Yes;Lose;10;No;Yes;No;No
-2017/05/07;9;Murloc Paladin;No;Win;6;No;No;No;No
-2017/05/07;9;Freeze Mage;No;Win;5;No;No;No;No
-2017/05/07;9;Priest;No;Lose;10;Yes;No;Yes;No
-2017/05/07;9;Midrange Hunter;Yes;Win;6;Yes;No;Yes;No
-2017/05/07;9;Warlock;No;Win;5;Yes;No;Yes;No
-2017/05/07;9;Murloc Paladin;Yes;Lose;7;No;Yes;No;No
-2017/05/07;9;Pirate Warrior;No;Lose;6;Yes;No;Yes;No
-2017/05/07;9;Shaman;No;Win;7;Yes;No;No;No
-2017/05/07;9;Murloc Paladin;Yes;Lose;8;No;No;Yes;No
-2017/05/07;9;Shaman;Yes;Win;2;No;No;Yes;No
-2017/05/07;9;Midrange Hunter;Yes;Lose;5;Yes;No;No;No
-2017/05/07;9;Freeze Mage;No;Lose;10;Yes;No;No;No
-2017/05/07;9;Jade Druid;Yes;Lose;7;Yes;No;No;No
-2017/05/07;9;Pirate Warrior;No;Win;7;Yes;No;No;No
-2017/05/07;9;Priest;Yes;Lose;8;Yes;No;No;No
-2017/05/07;9;Freeze Mage;No;Win;10;Yes;No;No;No
-2017/05/07;9;Aggro Druid;Yes;Lose;4;No;No;Yes;No
-2017/05/07;9;Quest Rogue;Yes;Win;4;No;No;Yes;No
-2017/05/07;9;Quest Taunt Warrior;No;Win;7;Yes;No;No;Yes
-2017/05/07;9;Freeze Mage;No;Win;7;Yes;No;No;No
-2017/05/07;9;Quest Taunt Warrior;No;Lose;9;No;Yes;Yes;No
-2017/05/07;9;Quest Taunt Warrior;Yes;Lose;10;Yes;Yes;Yes;No
-2017/05/07;9;Pirate Warrior;No;Lose;8;Yes;No;No;No
-2017/05/07;9;Priest;Yes;Lose;6;No;Yes;Yes;No
-2017/05/07;9;Priest;Yes;Win;3;No;No;Yes;No
-2017/05/07;9;Freeze Mage;No;Win;6;No;No;No;Yes
-2017/05/07;9;Quest Rogue;Yes;Win;7;No;Yes;No;No
-2017/05/07;9;Pirate Warrior;No;Win;5;No;No;Yes;No
-2017/05/07;8;Miracle Rogue;No;Lose;9;Yes;No;No;No
-2017/05/07;8;Aggro Druid;Yes;Lose;6;No;No;Yes;No
-2017/05/07;8;Murloc Paladin;Yes;Lose;8;Yes;No;Yes;No
-2017/05/07;9;Quest Taunt Warrior;No;Lose;10;Yes;No;Yes;No
-2017/05/07;9;Freeze Mage;Yes;Lose;9;Yes;No;Yes;No
-2017/05/07;9;Midrange Hunter;Yes;Lose;9;No;No;No;No
-2017/05/07;9;Freeze Mage;No;Lose;10;Yes;No;Yes;No
-2017/05/07;9;Midrange Hunter;No;Lose;5;No;No;Yes;No
-2017/05/07;10;Quest Taunt Warrior;Yes;Win;4;No;No;No;No
-2017/05/07;10;Quest Taunt Warrior;Yes;Win;8;Yes;No;No;No
-2017/05/07;9;Shaman;No;Lose;7;Yes;No;Yes;No
-2017/05/07;9;Miracle Rogue;Yes;Win;8;Yes;Yes;No;No
-2017/05/07;9;Murloc Paladin;Yes;Lose;5;No;No;Yes;No
-2017/05/08;10;Murloc Paladin;No;Win;7;No;Yes;Yes;No
-2017/05/08;10;Warlock;No;Lose;10;Yes;No;No;No
-2017/05/08;10;Midrange Hunter;No;Lose;8;No;No;Yes;No
-2017/05/08;10;Midrange Hunter;No;Lose;10;Yes;No;No;No
-2017/05/08;10;Quest Rogue;No;Lose;6;Yes;No;No;No
-2017/05/08;10;Jade Druid;No;Lose;10;Yes;No;Yes;No
-2017/05/08;10;Priest;Yes;Win;4;No;No;No;No
-2017/05/08;10;Pirate Warrior;No;Win;4;No;Yes;Yes;No
-2017/05/08;10;Midrange Hunter;Yes;Win;6;Yes;No;Yes;No
-2017/05/08;10;Pirate Warrior;Yes;Win;3;No;No;Yes;No
-2017/05/08;9;Pirate Warrior;Yes;Win;7;No;Yes;No;Yes
-2017/05/08;9;Freeze Mage;No;Win;8;No;Yes;No;No
-2017/05/08;9;Shaman;No;Win;7;No;Yes;No;No
-2017/05/08;8;Aggro Druid;No;Lose;9;Yes;No;No;No
-2017/05/08;8;Pirate Warrior;Yes;Lose;6;No;Yes;No;No
-2017/05/08;8;Murloc Paladin;No;Win;6;No;Yes;No;No
-2017/05/08;8;Quest Rogue;No;Win;8;Yes;No;No;No
-2017/05/08;8;Pirate Warrior;Yes;Lose;6;No;Yes;No;No
-2017/05/08;8;Freeze Mage;No;Lose;7;No;No;Yes;No
-2017/05/08;8;Priest;Yes;Lose;8;Yes;No;No;No
-2017/05/09;9;Priest;No;Win;6;Yes;No;Yes;No
-2017/05/09;9;Priest;Yes;Lose;10;No;No;No;No
-2017/05/09;9;Jade Druid;No;Lose;10;Yes;No;No;No
-2017/05/09;9;Shaman;Yes;Lose;10;Yes;No;Yes;No
-2017/05/09;9;Murloc Paladin;No;Lose;6;Yes;No;Yes;No
-2017/05/09;9;Midrange Hunter;Yes;Lose;6;No;No;Yes;No
-2017/05/09;9;Pirate Warrior;No;Lose;7;Yes;No;No;No
-2017/05/09;10;Freeze Mage;Yes;Win;10;Yes;No;No;No
-2017/05/09;10;Quest Taunt Warrior;No;Lose;8;No;Yes;No;No
-2017/05/09;10;Freeze Mage;No;Lose;8;No;No;Yes;No
-2017/05/09;10;Midrange Hunter;No;Lose;7;No;Yes;No;No
-2017/05/09;10;Jade Druid;No;Lose;9;No;No;Yes;No
-2017/05/09;10;Jade Druid;No;Win;4;No;No;Yes;No
-2017/05/09;10;Midrange Hunter;Yes;Win;9;Yes;Yes;No;No
-2017/05/09;10;Quest Warlock;Yes;Win;3;No;No;No;No
-2017/05/09;10;Priest;No;Lose;10;Yes;No;Yes;No
-2017/05/09;10;Midrange Hunter;Yes;Lose;9;Yes;Yes;No;No
-2017/05/09;10;Aggro Druid;No;Lose;8;Yes;Yes;No;No
-2017/05/10;10;Pirate Warrior;Yes;Lose;8;No;No;No;No
-2017/05/10;10;Aggro Druid;No;Lose;8;No;Yes;No;No
-2017/05/10;10;Miracle Rogue;Yes;Lose;10;Yes;Yes;No;No
-2017/05/10;10;Midrange Hunter;Yes;Lose;10;Yes;No;No;No
-2017/05/10;10;Quest Rogue;Yes;Win;6;No;Yes;No;No
-2017/05/10;10;Freeze Mage;No;Lose;10;No;No;No;No
-2017/05/10;10;Priest;No;Lose;10;No;Yes;Yes;No
-2017/05/10;10;Midrange Hunter;Yes;Lose;9;Yes;Yes;No;No
-2017/05/10;10;Midrange Hunter;No;Lose;6;No;Yes;No;No
-2017/05/10;10;Priest;Yes;Lose;10;Yes;Yes;Yes;No
-2017/05/10;10;Priest;Yes;Win;10;Yes;No;No;No
-2017/05/10;10;Midrange Hunter;Yes;Win;6;Yes;No;Yes;No
-2017/05/10;10;Aggro Druid;Yes;Win;6;No;Yes;Yes;No
-2017/05/10;10;Murloc Paladin;No;Win;7;No;No;Yes;No
-2017/05/10;9;Murloc Paladin;Yes;Win;4;No;Yes;Yes;No
-2017/05/10;9;Pirate Warrior;No;Win;6;No;No;Yes;No
-2017/05/10;9;Freeze Mage;No;Win;9;Yes;No;No;No
-2017/05/10;8;Jade Druid;Yes;Win;5;No;No;No;No
-2017/05/10;8;Priest;Yes;Lose;10;Yes;No;Yes;No
-2017/05/10;8;Pirate Warrior;Yes;Lose;8;Yes;Yes;No;No
-2017/05/10;8;Pirate Warrior;Yes;Win;3;No;No;Yes;No
-2017/05/10;8;Aggro Druid;Yes;Lose;5;No;No;No;No
-2017/05/10;8;Aggro Druid;Yes;Lose;5;Yes;No;No;No
-2017/05/10;8;Quest Taunt Warrior;No;Lose;5;No;No;Yes;No
-2017/05/10;8;Jade Druid;No;Win;7;Yes;Yes;Yes;No
-2017/05/10;8;Freeze Mage;Yes;Win;5;No;Yes;Yes;No
-2017/05/10;8;Priest;No;Lose;10;Yes;Yes;Yes;No
-2017/05/10;8;Miracle Rogue;Yes;Win;8;No;Yes;No;No
-2017/05/10;8;Quest Taunt Warrior;Yes;Win;7;No;Yes;No;No
-2017/05/10;8;Aggro Druid;Yes;Win;6;Yes;No;Yes;No
-2017/05/10;8;Midrange Hunter;Yes;Win;5;No;No;Yes;No
-2017/05/11;7;Priest;Yes;Win;4;No;No;No;No
-2017/05/11;7;Pirate Warrior;Yes;Win;8;Yes;Yes;No;No
-2017/05/11;6;;;;;;;;
+Id_game;Date;Rank;Opponent;Coin;Result;Turn;LivingMana;Finja;Concede;Disconnect
+1;2017/05/07;9;Freeze Mage;;Win;8;Yes;No;No;No
+2;2017/05/07;9;Shaman;;Lose;10;Yes;No;No;No
+3;2017/05/07;9;Freeze Mage;;Lose;10;Yes;Yes;No;No
+4;2017/05/07;10;Murloc Paladin;;Lose;6;No;No;Yes;No
+5;2017/05/07;10;Midrange Hunter;;Lose;7;Yes;No;Yes;No
+6;2017/05/07;10;Quest Rogue;;Lose;10;Yes;No;No;No
+7;2017/05/07;10;Quest Taunt Warrior;;Lose;10;Yes;No;Yes;No
+8;2017/05/07;10;Midrange Paladin;;Lose;8;Yes;No;No;No
+9;2017/05/07;10;Midrange Paladin;Yes;Win;5;No;No;No;No
+10;2017/05/07;10;Jade Druid;No;Win;6;No;Yes;Yes;No
+11;2017/05/07;10;Jade Druid;No;Win;5;No;No;Yes;No
+12;2017/05/07;10;Freeze Mage;Yes;Lose;10;No;Yes;Yes;No
+13;2017/05/07;10;Quest Taunt Warrior;Yes;Lose;10;Yes;No;Yes;No
+14;2017/05/07;10;Freeze Mage;Yes;Lose;10;Yes;No;Yes;No
+15;2017/05/07;10;Priest;Yes;Win;5;Yes;No;Yes;No
+16;2017/05/07;10;Freeze Mage;Yes;Lose;9;Yes;No;Yes;No
+17;2017/05/07;10;Quest Taunt Warrior;Yes;Lose;9;Yes;No;Yes;No
+18;2017/05/07;10;Murloc Paladin;No;Win;6;No;No;No;No
+19;2017/05/07;10;Pirate Warrior;Yes;Lose;6;No;No;Yes;No
+20;2017/05/07;10;Quest Taunt Warrior;No;Lose;9;No;No;Yes;No
+21;2017/05/07;10;Freeze Mage;No;Lose;10;Yes;Yes;Yes;No
+22;2017/05/07;10;Quest Rogue;Yes;Win;10;Yes;No;No;No
+23;2017/05/07;10;Midrange Hunter;No;Win;5;No;Yes;Yes;No
+24;2017/05/07;10;Midrange Hunter;Yes;Win;4;No;No;No;No
+25;2017/05/07;10;Midrange Paladin;No;Win;6;No;No;No;No
+26;2017/05/07;9;Pirate Warrior;No;Win;7;No;Yes;No;No
+27;2017/05/07;9;Midrange Hunter;Yes;Lose;10;No;Yes;No;No
+28;2017/05/07;9;Murloc Paladin;No;Win;6;No;No;No;No
+29;2017/05/07;9;Freeze Mage;No;Win;5;No;No;No;No
+30;2017/05/07;9;Priest;No;Lose;10;Yes;No;Yes;No
+31;2017/05/07;9;Midrange Hunter;Yes;Win;6;Yes;No;Yes;No
+32;2017/05/07;9;Warlock;No;Win;5;Yes;No;Yes;No
+33;2017/05/07;9;Murloc Paladin;Yes;Lose;7;No;Yes;No;No
+34;2017/05/07;9;Pirate Warrior;No;Lose;6;Yes;No;Yes;No
+35;2017/05/07;9;Shaman;No;Win;7;Yes;No;No;No
+36;2017/05/07;9;Murloc Paladin;Yes;Lose;8;No;No;Yes;No
+37;2017/05/07;9;Shaman;Yes;Win;2;No;No;Yes;No
+38;2017/05/07;9;Midrange Hunter;Yes;Lose;5;Yes;No;No;No
+39;2017/05/07;9;Freeze Mage;No;Lose;10;Yes;No;No;No
+40;2017/05/07;9;Jade Druid;Yes;Lose;7;Yes;No;No;No
+41;2017/05/07;9;Pirate Warrior;No;Win;7;Yes;No;No;No
+42;2017/05/07;9;Priest;Yes;Lose;8;Yes;No;No;No
+43;2017/05/07;9;Freeze Mage;No;Win;10;Yes;No;No;No
+44;2017/05/07;9;Aggro Druid;Yes;Lose;4;No;No;Yes;No
+45;2017/05/07;9;Quest Rogue;Yes;Win;4;No;No;Yes;No
+46;2017/05/07;9;Quest Taunt Warrior;No;Win;7;Yes;No;No;Yes
+47;2017/05/07;9;Freeze Mage;No;Win;7;Yes;No;No;No
+48;2017/05/07;9;Quest Taunt Warrior;No;Lose;9;No;Yes;Yes;No
+49;2017/05/07;9;Quest Taunt Warrior;Yes;Lose;10;Yes;Yes;Yes;No
+50;2017/05/07;9;Pirate Warrior;No;Lose;8;Yes;No;No;No
+51;2017/05/07;9;Priest;Yes;Lose;6;No;Yes;Yes;No
+52;2017/05/07;9;Priest;Yes;Win;3;No;No;Yes;No
+53;2017/05/07;9;Freeze Mage;No;Win;6;No;No;No;Yes
+54;2017/05/07;9;Quest Rogue;Yes;Win;7;No;Yes;No;No
+55;2017/05/07;9;Pirate Warrior;No;Win;5;No;No;Yes;No
+56;2017/05/07;8;Miracle Rogue;No;Lose;9;Yes;No;No;No
+57;2017/05/07;8;Aggro Druid;Yes;Lose;6;No;No;Yes;No
+58;2017/05/07;8;Murloc Paladin;Yes;Lose;8;Yes;No;Yes;No
+59;2017/05/07;9;Quest Taunt Warrior;No;Lose;10;Yes;No;Yes;No
+60;2017/05/07;9;Freeze Mage;Yes;Lose;9;Yes;No;Yes;No
+61;2017/05/07;9;Midrange Hunter;Yes;Lose;9;No;No;No;No
+62;2017/05/07;9;Freeze Mage;No;Lose;10;Yes;No;Yes;No
+63;2017/05/07;9;Midrange Hunter;No;Lose;5;No;No;Yes;No
+64;2017/05/07;10;Quest Taunt Warrior;Yes;Win;4;No;No;No;No
+65;2017/05/07;10;Quest Taunt Warrior;Yes;Win;8;Yes;No;No;No
+66;2017/05/07;9;Shaman;No;Lose;7;Yes;No;Yes;No
+67;2017/05/07;9;Miracle Rogue;Yes;Win;8;Yes;Yes;No;No
+68;2017/05/07;9;Murloc Paladin;Yes;Lose;5;No;No;Yes;No
+69;2017/05/08;10;Murloc Paladin;No;Win;7;No;Yes;Yes;No
+70;2017/05/08;10;Warlock;No;Lose;10;Yes;No;No;No
+71;2017/05/08;10;Midrange Hunter;No;Lose;8;No;No;Yes;No
+72;2017/05/08;10;Midrange Hunter;No;Lose;10;Yes;No;No;No
+73;2017/05/08;10;Quest Rogue;No;Lose;6;Yes;No;No;No
+74;2017/05/08;10;Jade Druid;No;Lose;10;Yes;No;Yes;No
+75;2017/05/08;10;Priest;Yes;Win;4;No;No;No;No
+76;2017/05/08;10;Pirate Warrior;No;Win;4;No;Yes;Yes;No
+77;2017/05/08;10;Midrange Hunter;Yes;Win;6;Yes;No;Yes;No
+78;2017/05/08;10;Pirate Warrior;Yes;Win;3;No;No;Yes;No
+79;2017/05/08;9;Pirate Warrior;Yes;Win;7;No;Yes;No;Yes
+80;2017/05/08;9;Freeze Mage;No;Win;8;No;Yes;No;No
+81;2017/05/08;9;Shaman;No;Win;7;No;Yes;No;No
+82;2017/05/08;8;Aggro Druid;No;Lose;9;Yes;No;No;No
+83;2017/05/08;8;Pirate Warrior;Yes;Lose;6;No;Yes;No;No
+84;2017/05/08;8;Murloc Paladin;No;Win;6;No;Yes;No;No
+85;2017/05/08;8;Quest Rogue;No;Win;8;Yes;No;No;No
+86;2017/05/08;8;Pirate Warrior;Yes;Lose;6;No;Yes;No;No
+87;2017/05/08;8;Freeze Mage;No;Lose;7;No;No;Yes;No
+88;2017/05/08;8;Priest;Yes;Lose;8;Yes;No;No;No
+89;2017/05/09;9;Priest;No;Win;6;Yes;No;Yes;No
+90;2017/05/09;9;Priest;Yes;Lose;10;No;No;No;No
+91;2017/05/09;9;Jade Druid;No;Lose;10;Yes;No;No;No
+92;2017/05/09;9;Shaman;Yes;Lose;10;Yes;No;Yes;No
+93;2017/05/09;9;Murloc Paladin;No;Lose;6;Yes;No;Yes;No
+94;2017/05/09;9;Midrange Hunter;Yes;Lose;6;No;No;Yes;No
+95;2017/05/09;9;Pirate Warrior;No;Lose;7;Yes;No;No;No
+96;2017/05/09;10;Freeze Mage;Yes;Win;10;Yes;No;No;No
+97;2017/05/09;10;Quest Taunt Warrior;No;Lose;8;No;Yes;No;No
+98;2017/05/09;10;Freeze Mage;No;Lose;8;No;No;Yes;No
+99;2017/05/09;10;Midrange Hunter;No;Lose;7;No;Yes;No;No
+100;2017/05/09;10;Jade Druid;No;Lose;9;No;No;Yes;No
+101;2017/05/09;10;Jade Druid;No;Win;4;No;No;Yes;No
+102;2017/05/09;10;Midrange Hunter;Yes;Win;9;Yes;Yes;No;No
+103;2017/05/09;10;Quest Warlock;Yes;Win;3;No;No;No;No
+104;2017/05/09;10;Priest;No;Lose;10;Yes;No;Yes;No
+105;2017/05/09;10;Midrange Hunter;Yes;Lose;9;Yes;Yes;No;No
+106;2017/05/09;10;Aggro Druid;No;Lose;8;Yes;Yes;No;No
+107;2017/05/10;10;Pirate Warrior;Yes;Lose;8;No;No;No;No
+108;2017/05/10;10;Aggro Druid;No;Lose;8;No;Yes;No;No
+109;2017/05/10;10;Miracle Rogue;Yes;Lose;10;Yes;Yes;No;No
+110;2017/05/10;10;Midrange Hunter;Yes;Lose;10;Yes;No;No;No
+111;2017/05/10;10;Quest Rogue;Yes;Win;6;No;Yes;No;No
+112;2017/05/10;10;Freeze Mage;No;Lose;10;No;No;No;No
+113;2017/05/10;10;Priest;No;Lose;10;No;Yes;Yes;No
+114;2017/05/10;10;Midrange Hunter;Yes;Lose;9;Yes;Yes;No;No
+115;2017/05/10;10;Midrange Hunter;No;Lose;6;No;Yes;No;No
+116;2017/05/10;10;Priest;Yes;Lose;10;Yes;Yes;Yes;No
+117;2017/05/10;10;Priest;Yes;Win;10;Yes;No;No;No
+118;2017/05/10;10;Midrange Hunter;Yes;Win;6;Yes;No;Yes;No
+119;2017/05/10;10;Aggro Druid;Yes;Win;6;No;Yes;Yes;No
+120;2017/05/10;10;Murloc Paladin;No;Win;7;No;No;Yes;No
+121;2017/05/10;9;Murloc Paladin;Yes;Win;4;No;Yes;Yes;No
+122;2017/05/10;9;Pirate Warrior;No;Win;6;No;No;Yes;No
+123;2017/05/10;9;Freeze Mage;No;Win;9;Yes;No;No;No
+124;2017/05/10;8;Jade Druid;Yes;Win;5;No;No;No;No
+125;2017/05/10;8;Priest;Yes;Lose;10;Yes;No;Yes;No
+126;2017/05/10;8;Pirate Warrior;Yes;Lose;8;Yes;Yes;No;No
+127;2017/05/10;8;Pirate Warrior;Yes;Win;3;No;No;Yes;No
+128;2017/05/10;8;Aggro Druid;Yes;Lose;5;No;No;No;No
+129;2017/05/10;8;Aggro Druid;Yes;Lose;5;Yes;No;No;No
+130;2017/05/10;8;Quest Taunt Warrior;No;Lose;5;No;No;Yes;No
+131;2017/05/10;8;Jade Druid;No;Win;7;Yes;Yes;Yes;No
+132;2017/05/10;8;Freeze Mage;Yes;Win;5;No;Yes;Yes;No
+133;2017/05/10;8;Priest;No;Lose;10;Yes;Yes;Yes;No
+134;2017/05/10;8;Miracle Rogue;Yes;Win;8;No;Yes;No;No
+135;2017/05/10;8;Quest Taunt Warrior;Yes;Win;7;No;Yes;No;No
+136;2017/05/10;8;Aggro Druid;Yes;Win;6;Yes;No;Yes;No
+137;2017/05/10;8;Midrange Hunter;Yes;Win;5;No;No;Yes;No
+138;2017/05/11;7;Priest;Yes;Win;4;No;No;No;No
+139;2017/05/11;7;Pirate Warrior;Yes;Win;8;Yes;Yes;No;No
+140;2017/05/11;6;Pirate Warrior;No;Win;8;No;Yes;Yes;No
+141;2017/05/11;6;Quest Taunt Warrior;No;Lose;10;Yes;No;Yes;No
+142;2017/05/11;6;Shaman;No;Win;10;Yes;Yes;Yes;No
+143;2017/05/11;6;Murloc Paladin;No;Win;5;No;No;Yes;No
+144;2017/05/11;6;Murloc Paladin;No;Win;5;No;No;Yes;No
+145;2017/05/11;5;Freeze Mage;No;Lose;10;Yes;No;Yes;No
+146;2017/05/12;5;;;;;;;;

@@ -24,8 +24,8 @@ function(input, output, session) {
   #### Rank plot ####
   output$rank_plot <- renderPlot({
     games_data() %>%
-      filter(Disconnect == 'No') %>%
-      mutate(Id_game = 1:length(Date)) %>%
+      # filter(Disconnect == 'No') %>%
+      # mutate(Id_game = 1:length(Date)) %>%
       ggplot(aes(x = Id_game, y = Rank)) +
       ylim(25,0) +
       geom_line(color = 'firebrick') +

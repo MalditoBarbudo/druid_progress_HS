@@ -146,3 +146,31 @@ Id_game;Date;Rank;Opponent;Coin;Result;Turn;LivingMana;Finja;Concede;Disconnect
 145;2017/05/11;5;Freeze Mage;No;Lose;10;Yes;No;Yes;No
 146;2017/05/12;5;Freeze Mage;No;Win;10;No;Yes;No;No
 147;2017/05/12;5;Aggro Druid;Yes;Lose;4;No;No;Yes;No
+148;2017/05/13;5;Aggro Druid;Yes;Lose;7;No;No;No;No
+149;2017/05/13;5;Aggro Druid;No;Win;7;Yes;No;Yes;No
+150;2017/05/13;5;Shaman;Yes;Lose;8;Yes;No;Yes;No
+151;2017/05/13;5;Aggro Druid;No;Lose;6;No;No;Yes;No
+152;2017/05/13;5;Aggro Druid;No;Win;6;No;Yes;Yes;No
+153;2017/05/13;5;Aggro Druid;No;Win;1;No;No;Yes;Yes
+154;2017/05/13;5;Jade Druid;No;Win;10;Yes;Yes;No;No
+155;2017/05/13;5;Pirate Warrior;No;Win;7;No;Yes;No;No
+156;2017/05/13;5;Pirate Warrior;Yes;Win;6;No;No;No;No
+157;2017/05/13;5;Shaman;No;Lose;10;No;No;Yes;No
+158;2017/05/13;5;Freeze Mage;Yes;Lose;9;No;No;Yes;No
+159;2017/05/13;5;Quest Rogue;No;Lose;7;No;No;No;No
+160;2017/05/13;5;Aggro Druid;Yes;Lose;5;No;No;No;No
+161;2017/05/13;5;Freeze Mage;No;Win;5;No;No;No;No
+162;2017/05/13;5;Pirate Warrior;No;Win;5;No;No;No;No
+163;2017/05/13;5;Shaman;Yes;Lose;8;No;Yes;No;No
+164;2017/05/13;5;Aggro Druid;No;Lose;3;No;No;Yes;No
+165;2017/05/13;5;Aggro Druid;No;Lose;6;No;No;Yes;No
+166;2017/05/13;5;Shaman;Yes;Win;6;Yes;No;Yes;No
+167;2017/05/14;5;Pirate Warrior;No;Win;5;No;Yes;Yes;No
+168;2017/05/14;5;Priest;Yes;Win;9;Yes;No;Yes;No
+169;2017/05/14;5;Priest;No;Lose;5;No;No;Yes;No
+170;2017/05/14;5;Aggro Druid;Yes;Lose;8;No;No;Yes;No
+171;2017/05/14;5;Midrange Hunter;No;Win;7;Yes;No;No;No
+172;2017/05/14;5;Pirate Warrior;Yes;Win;5;No;No;Yes;No
+173;2017/05/14;5;Priest;No;Lose;9;Yes;No;Yes;No
+174;2017/05/14;5;Freeze Mage;No;Lose;8;No;Yes;No;No
+175;2017/05/14;5;Midrange Hunter;No;Lose;10;Yes;Yes;No;No

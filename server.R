@@ -8,6 +8,7 @@ library(forcats)
 library(cowplot)
 library(ggthemes)
 library(googlesheets)
+library(viridis)
 
 # Data
 # We need to read the file every five minutes, this way while the app is up we
@@ -79,11 +80,12 @@ function(input, output, session) {
       filter(Count > 3) %>%
       bind_rows(overall) %>%
       ggplot(aes(y = Ratio, x = fct_relevel(Opponent, "Overall", after = Inf),
-                 fill = Opponent)) +
+                 fill = Ratio)) +
       geom_hline(yintercept = 0.5, color = 'red') +
       geom_bar(stat = 'identity') +
-      geom_text(aes(label = round(Ratio, 2)), vjust = 1.2, size = 3) +
+      geom_text(aes(label = round(Ratio, 2)), vjust = -1.2, size = 3) +
       scale_y_continuous(breaks = c(0, 0.33, 0.5, 0.66, 1), limits = c(0,1)) +
+      scale_fill_viridis(option = 'viridis') +
       labs(x = 'Opponent',
            title = 'Win Ratio per Archetype',
            subtitle = '(only archetypes with > 3 games)') +

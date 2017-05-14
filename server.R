@@ -50,7 +50,8 @@ function(input, output, session) {
       mutate(win_ratio = if_else(Result == 'Win', 1, 0,
                                  NA_real_)) %>%
       summarise(Ratio = mean(win_ratio)) %>%
-      mutate(Opponent = 'Overall')
+      mutate(Opponent = 'Overall',
+             Class = 'Overall')
     
     ratio_per_arch <- games_data() %>%
       filter(Disconnect == 'No') %>%
@@ -120,8 +121,8 @@ function(input, output, session) {
       theme_minimal() +
       theme(axis.text.x = element_text(angle = 90))
     
-    plot_grid(ratio_per_arch, ratio_per_class,
-              count_per_arch, count_per_class,
+    plot_grid(ratio_per_arch, count_per_arch,
+              ratio_per_class, count_per_class,
               ncol = 2, labels = 'auto', align = 'h')
   },
   res = 100)

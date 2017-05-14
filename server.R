@@ -14,27 +14,6 @@ library(viridis)
 # We need to read the file every five minutes, this way while the app is up we
 # always have "real time" data.
 
-# read data function
-# Using googlesheets package. I want to read automatically the data from a google
-# spreadsheet, not public. So I need the token stored in the rds file to access
-# the spreadsheet. After that we retrieve the data. All of this must be included
-# in a reading function to include in reactiveFileReader.
-
-read_gs_data <- function(path){
-  # get access by stored token
-  suppressMessages(
-    gs_auth(token = file.path(path, "googlesheets_token.rds"),
-            verbose = FALSE)
-  )
-  
-  # get data
-  aggro_data <- gs_title('aggro_druid') %>%
-    gs_read()
-  
-  # return data
-  aggro_data
-}
-
 function(input, output, session) {
   # Load reactive
   games_data <- reactiveFileReader(

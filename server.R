@@ -9,6 +9,7 @@ library(cowplot)
 library(ggthemes)
 library(googlesheets)
 library(viridis)
+library(stringr)
 
 # Source helper functions from global.R
 source('global.R')

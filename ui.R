@@ -27,20 +27,15 @@ navbarPage("Aggro Druid Analysis", id = 'aggro',
   
   # Tab planel for Archetypes statistics
   tabPanel(
-    "Archetypes",
+    "Archetypes & Classes",
     icon = icon("users"),
     
     # row
     fluidRow(
       # Ratio plot
       column(
-        6,
-        plotOutput("ratio_per_arch", height = '600px')
-      ),
-      # Count plot
-      column(
-        6,
-        plotOutput("count_per_arch", height = '600px')
+        12,
+        plotOutput("ratios", height = '700px')
       )
     )
   ),

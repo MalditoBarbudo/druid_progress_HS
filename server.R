@@ -10,6 +10,9 @@ library(ggthemes)
 library(googlesheets)
 library(viridis)
 
+# Source helper functions from global.R
+source('global.R')
+
 # Data
 # We need to read the file every five minutes, this way while the app is up we
 # always have "real time" data.
@@ -39,8 +42,8 @@ function(input, output, session) {
   },
   res = 100)
   
-  #### Ratio per Archetype ####
-  output$ratio_per_arch <- renderPlot({
+  #### Ratios per Archetype and Class####
+  output$ratios <- renderPlot({
     overall <- games_data() %>%
       filter(Disconnect == 'No') %>%
       # as_factor(Result) %>%
@@ -49,14 +52,14 @@ function(input, output, session) {
       summarise(Ratio = mean(win_ratio)) %>%
       mutate(Opponent = 'Overall')
     
-    games_data() %>%
+    ratio_per_arch <- games_data() %>%
       filter(Disconnect == 'No') %>%
       mutate(win_ratio = if_else(Result == 'Win', 1, 0,
                                  NA_real_)) %>%
       group_by(Opponent) %>%
       summarise(Ratio = mean(win_ratio),
                 Count = n()) %>%
-      filter(Count > 3) %>%
+      filter(Count > 10) %>%
       bind_rows(overall) %>%
       ggplot(aes(y = Ratio, x = fct_relevel(Opponent, "Overall", after = Inf),
                  fill = Ratio)) +
@@ -67,17 +70,37 @@ function(input, output, session) {
       scale_fill_viridis(option = 'viridis') +
       labs(x = 'Opponent',
            title = 'Win Ratio per Archetype',
-           subtitle = '(only archetypes with > 3 games)') +
+           subtitle = '(only archetypes with > 10 games)') +
       # coord_flip() +
       theme_minimal() +
       theme(legend.position = 'none') +
       theme(axis.text.x = element_text(angle = 90))
-  },
-  res = 100)
-  
-  #### Counts per Archetype ####
-  output$count_per_arch <- renderPlot({
-    games_data() %>%
+    
+    ratio_per_class <- games_data() %>%
+      filter(Disconnect == 'No') %>%
+      mutate(win_ratio = if_else(Result == 'Win', 1, 0,
+                                 NA_real_)) %>%
+      group_by(Class) %>%
+      summarise(Ratio = mean(win_ratio),
+                Count = n()) %>%
+      filter(Count > 10) %>%
+      bind_rows(overall) %>%
+      ggplot(aes(y = Ratio, x = fct_relevel(Class, "Overall", after = Inf),
+                 fill = Ratio)) +
+      geom_hline(yintercept = 0.5, color = 'red') +
+      geom_bar(stat = 'identity') +
+      geom_text(aes(label = round(Ratio, 2)), vjust = -1.2, size = 3) +
+      scale_y_continuous(breaks = c(0, 0.33, 0.5, 0.66, 1), limits = c(0,1)) +
+      scale_fill_viridis(option = 'viridis') +
+      labs(x = 'Class',
+           title = 'Win Ratio per Class',
+           subtitle = '(only classes with > 10 games)') +
+      # coord_flip() +
+      theme_minimal() +
+      theme(legend.position = 'none') +
+      theme(axis.text.x = element_text(angle = 90))
+    
+    count_per_arch <- games_data() %>%
       filter(Disconnect == 'No') %>%
       ggplot(aes(x = Opponent, fill = Result)) +
       geom_bar(position = 'stack', alpha = 0.5) +
@@ -86,6 +109,20 @@ function(input, output, session) {
            title = 'Games per Archetype') +
       theme_minimal() +
       theme(axis.text.x = element_text(angle = 90))
+    
+    count_per_class <- games_data() %>%
+      filter(Disconnect == 'No') %>%
+      ggplot(aes(x = Class, fill = Result)) +
+      geom_bar(position = 'stack', alpha = 0.5) +
+      scale_fill_manual(values = c('#D35400', '#2ECC71')) +
+      labs(y = 'Count', x = '',
+           title = 'Games per Class') +
+      theme_minimal() +
+      theme(axis.text.x = element_text(angle = 90))
+    
+    plot_grid(ratio_per_arch, ratio_per_class,
+              count_per_arch, count_per_class,
+              ncol = 2, labels = 'auto', align = 'h')
   },
   res = 100)
   
@@ -210,5 +247,4 @@ function(input, output, session) {
       theme(legend.position = 'top')
   },
   res = 100)
-  
 }

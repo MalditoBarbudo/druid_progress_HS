@@ -174,3 +174,19 @@ Id_game;Date;Rank;Opponent;Coin;Result;Turn;LivingMana;Finja;Concede;Disconnect
 173;2017/05/14;5;Priest;No;Lose;9;Yes;No;Yes;No
 174;2017/05/14;5;Freeze Mage;No;Lose;8;No;Yes;No;No
 175;2017/05/14;5;Midrange Hunter;No;Lose;10;Yes;Yes;No;No
+176;2017/05/14;5;Shaman;Yes;Lose;10;Yes;Yes;Yes;No
+177;2017/05/14;5;Midrange Hunter;Yes;Win;8;Yes;No;No;No
+178;2017/05/14;5;Freeze Mage;Yes;Lose;9;Yes;Yes;No;No
+179;2017/05/14;5;Priest;Yes;Lose;8;Yes;No;Yes;No
+180;2017/05/14;5;Midrange Hunter;No;Lose;8;No;No;Yes;No
+181;2017/05/14;5;Shaman;No;Win;7;Yes;No;Yes;No
+182;2017/05/14;5;Murloc Paladin;Yes;Win;6;No;No;No;No
+183;2017/05/14;5;Priest;Yes;Win;5;No;No;No;No
+184;2017/05/14;5;Murloc Paladin;Yes;Win;5;No;No;No;No
+185;2017/05/14;5;Quest Rogue;Yes;Win;5;Yes;No;Yes;Yes
+186;2017/05/14;5;Pirate Warrior;No;Win;6;Yes;No;Yes;No
+187;2017/05/14;4;Aggro Druid;Yes;Win;7;Yes;No;Yes;No
+188;2017/05/14;4;Aggro Druid;Yes;Lose;6;No;Yes;Yes;No
+189;2017/05/14;4;Midrange Paladin;No;Win;7;No;No;No;No
+190;2017/05/14;4;Shaman;Yes;Win;6;Yes;No;Yes;No
+191;2017/05/14;4;;;;;;;;

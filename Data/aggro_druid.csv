@@ -189,4 +189,13 @@ Id_game;Date;Rank;Opponent;Coin;Result;Turn;LivingMana;Finja;Concede;Disconnect
 188;2017/05/14;4;Aggro Druid;Yes;Lose;6;No;Yes;Yes;No
 189;2017/05/14;4;Midrange Paladin;No;Win;7;No;No;No;No
 190;2017/05/14;4;Shaman;Yes;Win;6;Yes;No;Yes;No
-191;2017/05/14;4;;;;;;;;
+191;2017/05/14;4;Murloc Paladin;No;Lose;8;No;No;Yes;No
+192;2017/05/14;4;Midrange Paladin;Yes;Win;4;No;No;Yes;No
+193;2017/05/14;4;Murloc Paladin;Yes;Lose;5;No;Yes;No;No
+194;2017/05/14;4;Pirate Warrior;No;Lose;6;No;Yes;Yes;No
+195;2017/05/14;4;Quest Mage;Yes;Lose;8;No;No;Yes;No
+196;2017/05/14;4;Murloc Paladin;Yes;Win;6;Yes;Yes;No;No
+197;2017/05/14;4;Secret Mage;No;Lose;9;Yes;Yes;No;No
+198;2017/05/14;4;Pirate Warrior;No;Win;9;No;Yes;No;No
+199;2017/05/14;4;Aggro Druid;No;Win;5;Yes;Yes;Yes;No
+200;2017/05/14;4;Secret Mage;No;Lose;6;Yes;No;Yes;No

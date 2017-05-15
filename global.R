@@ -37,4 +37,24 @@ get_class_from_archetype <- function(arch) {
   return(basic_classes)
 }
 
+################################################################################
+# ggplot theme
+# A basic & minimal theme
 
+require(ggplot2)
+
+theme_hs <- theme_bw() +
+  theme(axis.ticks.x = element_line(size = 1, colour = 'black'),
+        axis.line = element_line(size = 1, colour = "black"),
+        axis.line.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        panel.border = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.grid.major.y = element_line(size = .5, colour = 'grey80', linetype = 'dotted'),
+        panel.grid.major.x = element_blank(),
+        panel.background = element_rect(fill = 'grey95'),
+        legend.background = element_blank(),
+        legend.key = element_blank(),
+        text = element_text(family = "Raleway", size = 12))
+
+################################################################################

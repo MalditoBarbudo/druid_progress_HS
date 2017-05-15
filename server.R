@@ -39,7 +39,7 @@ function(input, output, session) {
       scale_colour_manual(values = c('#D35400', '#2ECC71')) +
       labs(x = 'Game',
            title = 'Rank progression') +
-      theme_minimal()
+      theme_hs()
   },
   res = 100)
   
@@ -74,7 +74,7 @@ function(input, output, session) {
            title = 'Win Ratio per Archetype',
            subtitle = '(only archetypes with > 10 games)') +
       # coord_flip() +
-      theme_minimal() +
+      theme_hs() +
       theme(legend.position = 'none') +
       theme(axis.text.x = element_text(angle = 90))
     
@@ -98,7 +98,7 @@ function(input, output, session) {
            title = 'Win Ratio per Class',
            subtitle = '(only classes with > 10 games)') +
       # coord_flip() +
-      theme_minimal() +
+      theme_hs() +
       theme(legend.position = 'none') +
       theme(axis.text.x = element_text(angle = 90))
     
@@ -109,7 +109,7 @@ function(input, output, session) {
       scale_fill_manual(values = c('#D35400', '#2ECC71')) +
       labs(y = 'Count', x = '',
            title = 'Games per Archetype') +
-      theme_minimal() +
+      theme_hs() +
       theme(axis.text.x = element_text(angle = 90))
     
     count_per_class <- games_data() %>%
@@ -119,7 +119,7 @@ function(input, output, session) {
       scale_fill_manual(values = c('#D35400', '#2ECC71')) +
       labs(y = 'Count', x = '',
            title = 'Games per Class') +
-      theme_minimal() +
+      theme_hs() +
       theme(axis.text.x = element_text(angle = 90))
     
     plot_grid(ratio_per_arch, count_per_arch,
@@ -137,7 +137,7 @@ function(input, output, session) {
       scale_fill_manual(values = c('#D35400', '#2ECC71')) +
       labs(y = 'Count', x = '',
            title = 'Living Mana') +
-      theme_minimal()
+      theme_hs()
     
     Finja_total <- games_data() %>%
       filter(Disconnect == 'No') %>%
@@ -146,7 +146,7 @@ function(input, output, session) {
       scale_fill_manual(values = c('#D35400', '#2ECC71')) +
       labs(y = 'Count', x = '',
            title = 'Finja') +
-      theme_minimal()
+      theme_hs()
     
     Combinations <- games_data() %>%
       filter(Disconnect == 'No') %>%
@@ -158,7 +158,7 @@ function(input, output, session) {
       scale_fill_manual(values = c('#D35400', '#2ECC71')) +
       labs(y = 'Count', x = '',
            title = 'Detailed') +
-      theme_minimal()
+      theme_hs()
     
     upper_grid <- plot_grid(LivingMana_total, Finja_total, labels = 'auto')
     plot_grid(upper_grid, Combinations, labels = c('', 'c'),
@@ -182,7 +182,7 @@ function(input, output, session) {
       labs(y = 'Ratio',
            title = 'Overall probabilistic smooth',
            subtitle = '(dots are jittered for better visualization)') +
-      theme_minimal()
+      theme_hs()
     
     card_win_prob <- games_data() %>%
       filter(Disconnect == 'No') %>%
@@ -200,7 +200,7 @@ function(input, output, session) {
       labs(y = 'Ratio',
            title = 'By played card probabilistic smooth',
            subtitle = '(dots are jittered for better visualization)') +
-      theme_minimal() +
+      theme_hs() +
       theme(legend.position = 'top')
     
     plot_grid(overall_win_prob, card_win_prob, ncol = 1, labels = 'auto',
@@ -219,7 +219,7 @@ function(input, output, session) {
       labs(y = 'Count',
            title = 'Games finished by turn') +
       scale_x_continuous(breaks = 2:10) +
-      theme_minimal()
+      theme_hs()
   },
   res = 100)
   
@@ -245,7 +245,7 @@ function(input, output, session) {
       labs(y = 'Ratio',
            title = 'By played card and archetype probabilistic smooth',
            subtitle = '(dots are jittered for better visualization)') +
-      theme_minimal() +
+      theme_hs() +
       theme(legend.position = 'top')
   },
   res = 100)

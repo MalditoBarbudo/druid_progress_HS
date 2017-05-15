@@ -20,11 +20,18 @@ source('global.R')
 
 function(input, output, session) {
   # Load reactive
+  # games_data <- reactiveFileReader(
+  #   60000,
+  #   session = session,
+  #   filePath = getwd(),
+  #   readFunc = read_gs_data
+  # )
+  
   games_data <- reactiveFileReader(
     60000,
     session = session,
-    filePath = getwd(),
-    readFunc = read_gs_data
+    filePath = 'Old_Data/aggro_druid.csv',
+    readFunc = read_csv2
   )
   
   #### Rank plot ####
@@ -246,7 +253,9 @@ function(input, output, session) {
            title = 'By played card and archetype probabilistic smooth',
            subtitle = '(dots are jittered for better visualization)') +
       theme_hs +
-      theme(legend.position = 'top')
+      theme(legend.position = 'top',
+            strip.background = element_blank(),
+            strip.text = element_text(face = 'bold'))
   },
   res = 100)
 }

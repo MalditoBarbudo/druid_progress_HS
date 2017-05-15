@@ -55,6 +55,6 @@ theme_hs <- theme_bw() +
         panel.background = element_rect(fill = 'grey95'),
         legend.background = element_blank(),
         legend.key = element_blank(),
-        text = element_text(family = "Raleway", size = 12))
+        text = element_text(family = "Inconsolata", size = 12))
 
 ################################################################################

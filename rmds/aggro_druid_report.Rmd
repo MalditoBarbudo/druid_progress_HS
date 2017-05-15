@@ -18,7 +18,7 @@ library(cowplot)
 
 ```{r data_load, echo=FALSE, message=FALSE}
 # data
-data_aggro <- read_csv2('Data/aggro_druid.csv') %>%
+data_aggro <- read_csv2('../Old_Data/aggro_druid.csv') %>%
   filter(Disconnect == 'No')
 ```
 
@@ -36,7 +36,7 @@ data_aggro %>%
     geom_point(aes(colour = Result)) +
     labs(x = 'Game',
          title = 'Rank progression') +
-    theme_minimal()
+    theme_hs
 ```
 
 ```{r win_ratio}

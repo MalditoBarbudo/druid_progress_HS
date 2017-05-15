@@ -7,6 +7,9 @@ library(shinythemes)
 # Navbar
 navbarPage("Aggro Druid Analysis", id = 'aggro',
            theme = shinytheme("flatly"),
+           
+  # Tab panel for achievements, as value boxes
+  # I need flexdashboards to add valueBoxes, I dunno if is worthy :(
   
   # Tab panel for rank progress
   tabPanel(

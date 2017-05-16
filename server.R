@@ -20,19 +20,20 @@ source('global.R')
 
 function(input, output, session) {
   # Load reactive
-  # games_data <- reactiveFileReader(
-  #   60000,
-  #   session = session,
-  #   filePath = getwd(),
-  #   readFunc = read_gs_data
-  # )
-  
   games_data <- reactiveFileReader(
     60000,
     session = session,
-    filePath = 'Old_Data/aggro_druid.csv',
-    readFunc = read_csv2
+    filePath = getwd(),
+    readFunc = read_gs_data
   )
+  
+  # Example data to debug
+  # games_data <- reactiveFileReader(
+  #   60000,
+  #   session = session,
+  #   filePath = 'Old_Data/aggro_druid.csv',
+  #   readFunc = read_csv2
+  # )
   
   #### Rank plot ####
   output$rank_plot <- renderPlot({

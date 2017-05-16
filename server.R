@@ -10,6 +10,7 @@ library(ggthemes)
 library(googlesheets)
 library(viridis)
 library(stringr)
+library(extrafont)
 
 # Source helper functions from global.R
 source('global.R')

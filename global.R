@@ -1,27 +1,35 @@
 ################################################################################
-# read data function
 # Using googlesheets package. I want to read automatically the data from a google
 # spreadsheet, not public. So I need the token stored in the rds file to access
-# the spreadsheet. After that we retrieve the data. All of this must be included
-# in a reading function to include in reactiveFileReader.
+# the spreadsheet. After that we retrieve the data.
 
 require(googlesheets)
 require(tidyverse)
 
-read_gs_data <- function(path){
-  # get access by stored token
-  suppressMessages(
-    gs_auth(token = file.path(path, "googlesheets_token.rds"),
-            verbose = FALSE)
-  )
-  
+# get access by stored token
+suppressMessages(
+  gs_auth(token = "googlesheets_token.rds",
+          verbose = FALSE)
+)
+
+################################################################################
+# check function for reactive poll
+# This function returns the last update timestamp of the google spreadsheet data
+check_function <- function(){
+  (gs_ls() %>% filter(sheet_title == 'aggro_druid'))$updated
+}
+
+################################################################################
+# read data function (value function for reactive poll)
+# This function read the data
+
+read_gs_data <- function(path, input){
   # get data
   aggro_data <- gs_title('aggro_druid') %>%
     gs_read()
   
   # return data
-  aggro_data %>%
-    mutate(Class = get_class_from_archetype(Opponent))
+  aggro_data
 }
 
 ################################################################################
